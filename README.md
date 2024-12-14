@@ -36,7 +36,7 @@ This project is a **Student Management REST API** built with **Spring Boot**. It
 1. **Clone the Repository**
    ```bash
    git clone <repository_url>
-   cd student-management-api
+   cd server
    ```
 
 2. **Run the Application**
@@ -151,7 +151,6 @@ The following users are preloaded in the database:
 - Implement user registration.
 - Migrate from H2 to MySQL for production.
 
----
 
-## License
-This project is licensed under the MIT License.
+
+

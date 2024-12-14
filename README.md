@@ -139,17 +139,7 @@ The following users are preloaded in the database:
 - Stateless sessions are enforced using JWT.
 - Endpoints under `/api/auth/**` are open, while others require a valid token.
 
----
 
-## Notes
-- Use `NoOpPasswordEncoder` for testing only. Replace it with `BCryptPasswordEncoder` in production for secure password hashing.
-
----
-
-## Future Enhancements
-- Add pagination for GET endpoints.
-- Implement user registration.
-- Migrate from H2 to MySQL for production.
 
 
 
